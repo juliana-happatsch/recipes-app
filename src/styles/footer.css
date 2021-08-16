@@ -1,0 +1,17 @@
+footer {
+  align-items: center;
+  background: #ffc700;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  bottom: 0;
+  display: flex;
+  height: 50px;   /* Height of the footer */
+  justify-content: space-around;
+  padding: 3px;
+  position: fixed;
+  width: 100%;
+}
+
+.icon-footer {
+  max-height: 35px;
+}

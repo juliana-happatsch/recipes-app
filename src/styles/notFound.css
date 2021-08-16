@@ -1,0 +1,15 @@
+.not-found-page {
+  align-items: center;
+  background-image: url('../images/fundinho.png');
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.error {
+  width: 20rem;
+}
+
+.error img {
+  width: 100%;
+}

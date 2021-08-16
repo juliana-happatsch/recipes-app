@@ -1,0 +1,51 @@
+.favorite-btn {
+  background-color: #f67e0c;
+  border: none;
+  color: white;
+  font-style: italic;
+}
+
+.favorite-btn:active {
+  background-color: black;
+}
+
+.fav-category {
+  color: gray;
+  font-size: 14px;
+}
+
+.popup {
+  position: relative;
+}
+
+.popup2 {
+  position: fixed;
+}
+
+.popup .popuptext {
+  background-color: rgba(46, 46, 46, 0.836);
+  border-radius: 6px;
+  bottom: 125%;
+  color: white;
+  margin-left: 6rem;
+  margin-top: 1px;
+  opacity: 0;
+  padding: 8px 0;
+  position: absolute;
+  text-align: center;
+  visibility: hidden;
+  width: 160px;
+  z-index: 1;
+}
+
+.popup .show {
+  opacity: 1;
+  transition: visibility 0s linear , opacity 300ms;
+  visibility: visible;
+}
+
+.popup .hide {
+  opacity: 0;
+  transition: visibility 0s linear 300ms , opacity 300ms;
+  visibility: hidden;
+}

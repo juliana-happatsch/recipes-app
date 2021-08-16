@@ -1,0 +1,13 @@
+.bg-gray {
+  background-color: #eee;
+}
+
+.bg-title {
+  background-color: #ffc700;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.b-radius {
+  border-radius: 2%;
+}

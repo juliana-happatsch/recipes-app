@@ -1,0 +1,24 @@
+header {
+  background: #ffc700;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  height: 50px;
+  padding: 3px;
+  text-transform: uppercase;
+}
+
+.f-d-reverse {
+  flex-direction: row-reverse;
+}
+
+.searchBar {
+  background: #eceff1;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.searchBar input {
+  background-color: #f4f4f4;
+  border: 1px solid #cecece;
+  outline-color: #6fa7e6c9;
+}

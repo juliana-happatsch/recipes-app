@@ -1,38 +1,304 @@
-.App {
+.meals {
+  align-items: center;
+  background: #0fa36b;
+  color: #464646;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.rocksGlass {
+  animation: shake 1s infinite ease;
+  max-height: 80vh;
+}
+
+.body {
+  min-height: 100vh;
+  width: 360px;
+}
+
+.body-b {
+  min-height: 100vh;
+  padding-bottom: 50px;
+  width: 360px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.f-d-column {
+  flex-direction: column;
+}
+
+.j-c-center {
+  justify-content: center;
+}
+
+.a-i-center {
+  align-items: center;
+}
+
+.a-i-stretch {
+  align-items: stretch;
+}
+
+.j-c-spAround {
+  justify-content: space-around;
+}
+
+.j-c-spEvenly {
+  justify-content: space-evenly;
+}
+
+.j-c-spBetween {
+  justify-content: space-between;
+}
+
+.f-grow-2 {
+  flex-grow: 2;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 0.5rem;
+}
+
+.p-2 {
+  padding: 1rem;
+}
+
+.p-y-1 {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.btn {
+  background-color: #f67e0c;
+  border: none;
+  border-radius: 0.3rem;
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+}
+
+.btn:active {
+  background: black;
+}
+
+.btn-icon {
+  background: transparent;
+  border: none;
+}
+
+.back-icon {
+  background: #ff3535;
+  border-radius: 50%;
+  margin: 0.5rem;
+  padding: 0.25rem;
+  position: fixed;
+  width: 26px;
+}
+
+.float-icon {
+  position: fixed;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: 0.5rem;
+}
+
+.m-2 {
+  margin: 1rem;
+}
+
+.m-3 {
+  margin: 2rem;
+}
+
+.m-25 {
+  margin: 0.25rem;
+}
+
+.ml-1 {
+  margin-left: 0.5rem;
+}
+
+.ml-2 {
+  margin-left: 1rem;
+}
+
+.ml-3 {
+  margin-left: 1.5rem;
+}
+
+.ml-4 {
+  margin-left: 2.5rem;
+}
+
+.mr-1 {
+  margin-right: 0.5rem;
+}
+
+.m-y-1 {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.m-y-25 {
+  margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
+}
+
+.m-y-2 {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.d-block {
+  display: block;
+}
+
+.fh-1 {
+  font-size: 0.75rem;
+}
+
+.fh-2 {
+  font-size: 1rem;
+}
+
+.fh-4 {
+  font-size: 1.5rem;
+}
+
+.fh-5 {
+  font-size: 1.4rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.bg-white {
+  background: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.h3, h3 {
+  font-size: 1.2rem;
+}
+
+.text-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.b-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05) , 0 4px 8px 0 rgba(0, 0, 0, 0.05);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.c-secondary {
+  color: gray;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input::placeholder {
+  font-style: italic;
+}
+
+.c-gray {
+  color: #464646;
+}
+
+.c-white {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.ls-none {
+  list-style-type: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.fs-px-14 {
+  font-size: 14px;
+}
+
+/*
+#iceLeft {
+  animation: clink .8s infinite ease;
+  opacity: 0.6;
+  transform-origin: 36px 66px;
+}
+
+#iceRight {
+  animation: clink .8s .2s infinite ease;
+  opacity: 0.6;
+  transform-origin: 60px 78px;
+} */
+
+
+.meals > .logo {
+  animation: shake 1.5s infinite ease;
+  color: aliceblue;
+  font-family: Montserrat , sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+@keyframes shake {
+
+  0% {
+    transform: rotate(5deg);
   }
-  to {
-    transform: rotate(360deg);
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes clink {
+
+  0% {
+    transform: rotate(-10deg);
+  }
+
+  50% {
+    transform: rotate(20deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
   }
 }

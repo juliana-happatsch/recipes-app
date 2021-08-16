@@ -1,0 +1,32 @@
+.login-page {
+  background-image: url('../images/fundinho.png');
+}
+
+.chef-logo {
+  transform: rotate(-20deg);
+  width: 75px;
+}
+
+.login-title {
+  color: #ffc700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.login-input {
+  background-color: #f4f4f4;
+  border: 1px solid #cecece;
+  outline-color: #6fa7e6c9;
+}
+
+.login-btn {
+  background-color: #e6b400;
+  border: none;
+  font-size: 15px;
+  padding: 0.5rem;
+}
+
+.login-btn:disabled {
+  background-color: #ffe92285;
+  border: none;
+}

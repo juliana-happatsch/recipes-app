@@ -1,0 +1,27 @@
+.recipe-card {
+  background-color: #f3f3f3;
+  border: 1px solid #e0e0e0;
+  border-radius: 1rem;
+  min-height: 24vh;
+  width: 95%;
+}
+
+.recipe-card a {
+  width: 10rem;
+}
+
+.recipe-card a img {
+  border: 1px solid #e0e0e0;
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  width: 10rem;
+}
+
+.tag {
+  background-color: #ccc;
+  border-radius: 0.8rem;
+  font-size: 0.8rem;
+  margin: 0.5rem;
+  margin-left: 0;
+  padding: 0.5rem;
+}
