@@ -14,6 +14,10 @@ const Login = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
+    alert('Por favor, visualize em 360x640');
+  }, []);
+
+  useEffect(() => {
     const checkEmail = () => {
       const validEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       const length = 6;

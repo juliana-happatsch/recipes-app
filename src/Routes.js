@@ -21,7 +21,7 @@ import NotFound from './pages/NotFound';
 function Routes() {
   return (
     <Switch>
-      <Route exact path="juliana-happatsch.github.io/recipes-app/" component={ Login } />
+      <Route exact path="/" component={ Login } />
       <Route exact path="/comidas" component={ FoodList } />
       <Route exact path="/bebidas" component={ DrinkList } />
       <Route

@@ -17,7 +17,7 @@ export default function ProfilePage() {
 
   function handleClickLS() {
     localStorage.clear();
-    history.push('/');
+    history.push('/#/');
   }
 
   return (
