@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# recipe-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do Projeto
 
-## Available Scripts
+<p>Um app de receitas (feito pensado para mobile) onde o usuário pode interagir e aplicar diferentes tipos de buscas e filtros. Projeto foi feito em grupo.</p>
+<h1 align="center"> <br/> <a href="https://juliana-happatsch.github.io/recipes-app/">🔗 Link do projeto</a>  </h1>  <p align="center">🚀 #VQV</p>
 
-In the project directory, you can run:
 
-### `npm start`
+# Sumário
+<p align="center">  <a href="#objetivos">Objetivos</a> •  <a href="#tecnologias">Tecnologias</a>  • <a href="#desenvolvedores">Desenvolvedores</a>  </p>
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Demonstração da aplicação
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![](recipesApp.gif)
 
-### `npm test`
+## Objetivos
+Esse projeto foi desenvolvido visando desenvolver um app de receitas, utilizando duas ferramentas dentro do ecossistema React: Hooks e Redux! Nesse app é possível ver, buscar, filtrar, favoritar e acompanhar o processo de preparação de receitas e drinks!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Foram utilizadas 2 APIs distintas como base de dados, linkadas abaixo, uma para comidas e outra para bebidas.
 
-### `npm run build`
+- <a href="https://www.themealdb.com/api.php">Comidas</a>
+-  <a href="https://www.thecocktaildb.com/api.php">Bebidas</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O layout tem como foco dispositivos móveis.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tecnologias
 
-### `npm run eject`
+- <a href="https://pt-br.reactjs.org/docs/getting-started.html">React</a>
+- Hooks
+- <a href="https://react-redux.js.org/">Redux</a>
+- <a href="https://reactrouter.com/web/guides/quick-start">React-router-dom</a>
+- Css
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br/>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Habilidades
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+-   Utilizar Redux para gerenciar estado
+-   Utilizar a biblioteca React-Redux
+-   Utilizar o React Hook useState
+-   Utilizar o React Hook useContext
+-   Utilizar o React Hook useEffect
+-   Criar Hooks customizados
+-   Guardar informações no localStorage
+-   Aprimorar as softskills desenvolvendo o projeto em grupo
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<br/>
+<br/>
 
-## Learn More
+##  Pré-requisitos e como rodar a aplicação
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:  
+[Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/).  
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone o repositório
+Após clonar o repositório é necessário rodar o seguinte comando via terminal para baixar suas dependências:
+> ``` npm install ```
 
-### Code Splitting
+E para inicializar a aplicação rode o comando
+> ``` npm start ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br/>
 
-### Analyzing the Bundle Size
+## Desenvolvedores
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="https://github.com/albertoscandido">**Alberto Candido**</a><br/>
+<a href="https://github.com/juliana-happatsch">**Juliana Happatsch**</a><br/>
+<a href="https://github.com/marialisboa600">**Maria Lisboa**</a><br/>
+<a href="https://github.com/vitor-m-cardoso">**Vitor Cardoso**</a>
